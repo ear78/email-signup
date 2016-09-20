@@ -1,0 +1,1 @@
+This is a simple email sign up form developed from the ground up with HTML, CSS, and simple Javascript.  The sign up form can be responsive for mobile devices as well if down sized, and the use of a background image and css styles were used for the image effect.

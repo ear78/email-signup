@@ -1,0 +1,142 @@
+/*===========================================
+= Main Styles
+============================================*/
+* {
+	box-sizing: border-box;
+}
+
+html {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Josefin Sans', sans-serif;
+	text-align: center;
+	background-color: white;
+	color:#fff;
+	max-width: 25em;
+	margin: 0 auto;
+}
+
+header {
+	background-color: black;
+	max-width: 25em;
+	margin: 0rem auto 0;
+	padding: 10px 2.5%;
+}
+
+p {
+	padding-bottom: 5px;
+}
+
+form {
+	background-color: black;
+	padding: 0 0 20px;
+}
+
+/////////////////////////////////
+
+.email-title {
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 600;
+	font-size: 2.369em;
+	text-transform: uppercase;
+}
+
+.email-content {
+	font-style: normal;
+	font-size: 0.75rem;
+	text-transform: uppercase;
+	padding: 0 40px;
+	font-weight: 300;
+}
+
+.email-content a {
+	font-size: .65rem;
+	color: #6C7778;
+}
+
+/*===========================================
+= Input Styles
+============================================*/
+
+input[type="text"] {
+	font-family: 'Josefin Sans', sans-serif;
+	text-align: center;
+	width: 260px;
+	margin: 5px 0;
+}
+
+::placeholder { /*Placeholder text styling*/
+	font-family: 'Josefin Sans', sans-serif;
+	text-transform: uppercase;
+	font-size: 0.563em;
+	text-align: center;
+	font-weight: 600;
+	}
+
+label {
+	padding: 10px;
+}
+
+.gender-button {
+	margin: 10px 0px;
+}
+
+#submit-button { /* Submit Button styling*/
+	font-size: 1em;
+	font-weight: lighter;
+	background-color: #00B8AC;
+	padding: 10px 20px;
+	color: #fff;
+	border: 0;
+	margin: 10 0;
+
+}
+
+/*===========================================
+= Graphic Section Styling
+============================================*/
+
+.footer {
+	max-width: 25em;
+	height: 225px;
+	background-image: linear-gradient(rgba(255, 255, 255, 0.9),
+									  rgba(255, 255, 255, 0.5)),
+						url("../img/IMG_0009.JPG");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	margin: 0;
+
+}
+
+.footer h2 {
+	color: #fff;
+	font-size: 1.125rem;
+	font-weight: 600;
+	padding-top: 5.75em;
+	text-transform: uppercase;
+	color: black;
+	margin: 0;
+	text-align: center;
+
+}
+
+
+/*===========================================
+= MEDIA QUERIES
+============================================*/
+
+@media (min-width:30rem) {
+	.footer h2 {
+		padding-top: 5.25em;
+		font-size: 1.25rem;
+	}
+}
+
+@media (min-width:37rem) {
+	body {
+		margin: 5% auto;
+	}
+}
